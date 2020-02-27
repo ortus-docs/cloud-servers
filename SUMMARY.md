@@ -7,6 +7,7 @@
 * [Overview](intro/overview.md)
 * [About this Book](intro/about-this-book/README.md)
   * [Author](intro/about-this-book/author.md)
+* [EULA](intro/eula.md)
 
 ## AWS
 
