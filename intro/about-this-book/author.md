@@ -4,6 +4,10 @@
 
 George Murphy is a Software Engineer who has a long history in the IT and television industry. He has traveled extensively and has many benefits and experiences from doing this. One of those benefits was being able to meet his wife while on a business trip to Hungary. George lives about 20 miles outside of the Washington DC area with his wife Erzsebet  and daughter Virag. 
 
+He is a highly accomplished senior-level Software Design Engineer with extensive project leadership and solution design experience, successfully managing people, processes, and technology to implement critical enterprise solutions on time. Adept at learning and using new technologies and integrating them into corporate applications. Skilled team leader and mentor with excellent communication skills; can design and support Cloud and on premises applications for clients in diverse industries. Working in the cloud has become such a huge passion for him. Along with that passion has come a never ending thirst to learn new technologies such as Terraform, Nomad, and Vault.
+
+George, would rather spend time fishing with his free time than anything else. He also loves to spend time with family and travel. He loves mentoring others in new technology. His mission is to share with other his acceptance of Jesus as his personal savior.
+
 ## Luis Fernando Majano Lainez
 
 Luis Majano is a Computer Engineer that has been developing and designing software systems since the year 2000. He was born in [San Salvador, El Salvador](http://en.wikipedia.org/wiki/El_Salvador) in the late 70’s, during a period of economical instability and civil war. He lived in El Salvador until 1995 and then moved to Miami, Florida where he completed his Bachelors of Science in Computer Engineering at [Florida International University](http://fiu.edu). Luis resides in Houston, Texas with his beautiful wife Veronica, baby girl Alexia and baby boy Lucas!
