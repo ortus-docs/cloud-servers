@@ -1,6 +1,6 @@
 ---
 description: >-
-  This book will walk users through installing an ec2 instance from an Ortus AMI
+  This book will walk users through installing an EC2 instance from an Ortus AMI
   with Ubuntu, Tomcat 8 an Nginx load-balanced Lucee application server from the
   AWS marketplace.
 ---

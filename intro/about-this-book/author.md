@@ -2,7 +2,7 @@
 
 ## George Murphy
 
-
+George Murphy is a Software Engineer who has a long history in the IT and television industry. He has traveled extensively and has many benefits and experiences from doing this. One of those benefits was being able to meet his wife while on a business trip to Hungary. George lives about 20 miles outside of the Washington DC area with his wife Erzsebet  and daughter Virag. 
 
 ## Luis Fernando Majano Lainez
 
