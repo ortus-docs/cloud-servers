@@ -6,8 +6,11 @@ This AMI image will create a running ColdBox site for you. If you do not want a 
 2. Click the continue to subscribe button
 3. Click the accept terms button
 4. Next go to this page and click launch new instance [https://console.aws.amazon.com/marketplace/home?\#/subscriptions](https://console.aws.amazon.com/marketplace/home?#/subscriptions)
-5. This will take you to the "Choose an Instance Type." The default instance and AWS free tier selected is t3.micro. Unless you need more resources keep it at this. Go to the bottom of the screen and select Next:Configure Instance Details.      
-6. You are the "Configure Instance Details" page keep the defaults. Go to bottom of the page and click "Next: Add Storage" button.
+5. This will take you to the "Choose an Instance Type." The default instance and AWS free tier selected is t3.micro. Unless you need more resources keep it at this. Go to the bottom of the screen and select Next:Configure Instance Details. 
+6. You are on the "Configure Instance Details" page keep the defaults. Go to bottom of the page and click "Next: Add Storage" button.      
+
+   ![Step 2](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step2.png)
+
 7. You are now on the "Add Storage" page. Keep the defaults and click the button at the bottom right "Next: Add Tags."
 8. You are now on the "Add Tags" page. Let's add a tag. Click the add Tag. The y should be Key=Name and Value=Ortus Lucee CFML engine 5.2.9.31 \(Ubuntu Server 18.04 LTS\). Next go to the bottom of the page and click the button that says "Next: Configure Security Group."
 9. You are on the "Configure Security Group" page. We need to make a couple of changes before leaving this page. First is to go to the source column and select MyIP so that ssh will only be enabled for your IP address \(VERY IMPORTANT\). Next click the "Add Rule" button and under the type column select http and leave port 80 selected. Go to the bottom right of the page and select and click the "Review and Launch" button.
