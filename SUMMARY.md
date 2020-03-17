@@ -13,7 +13,8 @@
 
 * [Ubuntu Based Images](aws/ubuntu-based-images/README.md)
   * [Lucee + Nginx](aws/ubuntu-based-images/lucee-+-nginx/README.md)
-    * [Managing your web site](aws/ubuntu-based-images/lucee-+-nginx/managing-your-web-site.md)
+    * [Managing your web site](aws/ubuntu-based-images/lucee-+-nginx/managing-your-web-site/README.md)
+      * [Connecting to your server](aws/ubuntu-based-images/lucee-+-nginx/managing-your-web-site/connecting-to-your-server.md)
     * [Changelog](aws/ubuntu-based-images/lucee-+-nginx/changelog.md)
   * [CommandBox + Nginx](aws/ubuntu-based-images/commandbox-+-nginx.md)
 * [Windows Based Images](windows-based-images.md)
