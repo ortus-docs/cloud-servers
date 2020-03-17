@@ -9,7 +9,7 @@ This AMI image will create a running ColdBox site for you. If you do not want a 
 5. This will take you to the "Choose an Instance Type." The default instance and AWS free tier selected is t3.micro. Unless you need more resources keep it at this. Go to the bottom of the screen and select Next:Configure Instance Details. 
 6. You are on the "Configure Instance Details" page keep the defaults. Go to bottom of the page and click "Next: Add Storage" button.      
 
-   ![Step 2](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step2.png)
+   ![Step 2](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step2z.png) 
 
 7. You are now on the "Add Storage" page. Keep the defaults and click the button at the bottom right "Next: Add Tags."
 8. You are now on the "Add Tags" page. Let's add a tag. Click the add Tag. The y should be Key=Name and Value=Ortus Lucee CFML engine 5.2.9.31 \(Ubuntu Server 18.04 LTS\). Next go to the bottom of the page and click the button that says "Next: Configure Security Group."
