@@ -9,39 +9,35 @@ This AMI image will create a running ColdBox site for you. If you do not want a 
 5. This will take you to the "Choose an Instance Type." The default instance and AWS free tier selected is t3.micro. Unless you need more resources keep it at this. Go to the bottom of the screen and select Next:Configure Instance Details.   [![step 2](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step2.png)](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step2.png)
 6. You are on the "Configure Instance Details" page keep the defaults. Go to bottom of the page and click "Next: Add Storage" button.     
 
-   ![Step 3](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step3.png)
+   [![step 3](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step3.png)](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step3.png)
 
 7. You are now on the "Add Storage" page. Keep the defaults and click the button at the bottom right "Next: Add Tags."
 
-   ![Step 4](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step4.png)
+   [![step 4](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step4.png)](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step4.png)
 
-8. You are now on the "Add Tags" page. Let's add a tag. Click the add Tag. The y should be Key=Name and Value=Ortus Lucee CFML engine 5.2.9.31 \(Ubuntu Server 18.04 LTS\). Next go to the bottom of the page and click the button that says "Next: Configure Security Group."  
-
-
-   ![Step 5](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step5.png)
-
+8. You are now on the "Add Tags" page. Let's add a tag. Click the add Tag. The y should be Key=Name and Value=Ortus Lucee CFML engine 5.2.9.31 \(Ubuntu Server 18.04 LTS\). Next go to the bottom of the page and click the button that says "Next: Configure Security Group." [![step 5](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step5.png)](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step5.png)
 9. You are on the "Configure Security Group" page. We need to make a couple of changes before leaving this page. First is to go to the source column and select MyIP so that ssh will only be enabled for your IP address \(VERY IMPORTANT\).  
    Next click the "Add Rule" button and under the type column select http and leave port 80 selected. Go to the bottom right of the page and select and click the "Review and Launch" button.
 
-   ![Step 6](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step6.png)
+   [![step 6](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step6.png)](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step6.png)
 
 10. You are on the "Review Launch Instance" page. Review it and once you are okay click the "Launch" bottom on the bottom right of page.
 
-    ![Step 7](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step7.png)
+    [![step 7](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step7.png)](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step7.png)
 
 11. This opens a module window that is prompting you to suggesting an existing key pair or create a new open. If you do not know what this means I suggest you create a new key pair and put it in a folder that you have access to. If all went well you will see a green colored headline that says "Your instances are now launching."  
 
-    ![Step Modal](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step7a.png)
+    [![step Modal](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step7a.png)](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step7a.png)
 
 12. You are on the "Launch Status" page. Go to the bottom right and click the button labeled "View Instances." 
 
-    ![Step 8](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step8.png)
+    [![step 8](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step8.png)](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step8.png)
 
 13. Select your running instance. This will open some tabs at the bottom of the page. Select the "Description" tab. Look to the right on the description tab and look for "Public DNS \(IPv4\)." To the right of this text is the dns name. Copy that name and paste it in a browser. I should look something like this.  
     ec2-{public\_dns}.compute-1.amazonaws.com  
-    Paste that url in a browser and you should see the default ColdBox site.
+    Paste that URL in a browser and you should see the default ColdBox site.
 
-    ![Step 9](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step9.png)
+    [![step 9](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step9.png)](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step9.png)
 
 
 
