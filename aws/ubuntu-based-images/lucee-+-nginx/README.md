@@ -6,7 +6,7 @@ This AMI image will create a running ColdBox site for you. If you do not want a 
 2. Click the continue to subscribe button
 3. Click the accept terms button
 4. Next go to this page and click launch new instance [https://console.aws.amazon.com/marketplace/home?\#/subscriptions](https://console.aws.amazon.com/marketplace/home?#/subscriptions)
-5. This will take you to the "Choose an Instance Type." The default instance and AWS free tier selected is t3.micro. Unless you need more resources keep it at this. Go to the bottom of the screen and select Next:Configure Instance Details.  ![Step 2](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step2z.png)
+5. This will take you to the "Choose an Instance Type." The default instance and AWS free tier selected is t3.micro. Unless you need more resources keep it at this. Go to the bottom of the screen and select Next:Configure Instance Details.   [![step 2](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step2.png)](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step2.png)
 6. You are on the "Configure Instance Details" page keep the defaults. Go to bottom of the page and click "Next: Add Storage" button.     
 
    ![Step 3](https://raw.githubusercontent.com/murpg/murpg.github.io/master/images/step3.png)
