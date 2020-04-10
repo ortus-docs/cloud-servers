@@ -1,12 +1,26 @@
----
-description: >-
-  This book is intended to be a comprehensive book on how to create ec2
-  instances using the Ortus AMI for Ubuntu, Tomcat 8, Nginx, and Lucee. This is
-  achieved using the prehardened Ortus Lucee AMI.
----
-
 # Overview
 
-The AWS marketplace is the place to find the Ortus Lucee CFML engine \(Ubuntu Server 18.04 LTS\) AMI \(Amazon Machine Image\). You have a choice of a multitude of different sizes and use agreements. This includes from the free tier to the high performance paid tier. If you already have an Amazon account go login and go the Amazon Marketplace at this URL [https://aws.amazon.com/marketplace/](https://aws.amazon.com/marketplace/)  
-Once on this URL search for Ortus. From there click the subscribe button off to the right.
+This book is born out of a need to keep introducing our customers to new and innovative products. There are just too many folks who want to be in the Cloud but have no idea of how to get there.  This guide is intended to be a journal on how to move your products to the ANY cloud using any of the supported providers.
+
+## Supported Providers
+
+* Amazon Web Services \(AWS\)
+* Digital Ocean \(`Coming soon`\)
+* Google Cloud \(`Coming soon`\)
+* Azure Cloud \(`Coming soon`\)
+
+## Cloud Servers
+
+Here is a listing of the cloud servers that are available now or in progress of being built.
+
+| Server | Providers | Status |
+| :--- | :--- | :--- |
+| Lucee+Nginx+Ubuntu | AWS | **√** |
+| Lucee+IIS+Windows | AWS | In Progress |
+| ContentBox CMS+Nginx+Ubuntu+MySQL | AWS | In Progress |
+| ContentBox CMS+Nginx+Ubuntu | AWS | In Progress |
+
+{% hint style="info" %}
+All of our cloud servers come pre-installed with the latest CommandBox CLI
+{% endhint %}
 

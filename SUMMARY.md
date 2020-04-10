@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Welcome To The Cloud](README.md)
 
 ## Intro
 
@@ -11,13 +11,14 @@
 
 ## AWS
 
+* [Overview](aws/overview.md)
 * [Ubuntu Based Images](aws/ubuntu-based-images/README.md)
   * [Lucee + Nginx](aws/ubuntu-based-images/lucee-+-nginx/README.md)
     * [Managing your web site](aws/ubuntu-based-images/lucee-+-nginx/managing-your-web-site/README.md)
       * [Connecting to your server](aws/ubuntu-based-images/lucee-+-nginx/managing-your-web-site/connecting-to-your-server.md)
     * [Changelog](aws/ubuntu-based-images/lucee-+-nginx/changelog.md)
   * [CommandBox + Nginx](aws/ubuntu-based-images/commandbox-+-nginx.md)
-* [Windows Based Images](windows-based-images.md)
+* [Windows Based Images](aws/windows-based-images.md)
 
 ## Digital Ocean
 
@@ -26,6 +27,8 @@
 ## Azure
 
 * [Coming Soon..](azure/coming-soon...md)
-* [Untitled](untitled.md)
-* [index](untitled-1.md)
+
+## Google Cloud
+
+* [Coming Soon...](google-cloud/coming-soon....md)
 
