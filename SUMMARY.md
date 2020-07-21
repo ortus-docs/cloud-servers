@@ -18,7 +18,8 @@
       * [Connecting to your server](aws/ubuntu-based-images/lucee-+-nginx/managing-your-web-site/connecting-to-your-server.md)
     * [Changelog](aws/ubuntu-based-images/lucee-+-nginx/changelog.md)
   * [CommandBox + Nginx](aws/ubuntu-based-images/commandbox-+-nginx.md)
-* [Windows Based Images](aws/windows-based-images.md)
+* [Windows Based Images](aws/windows-based-images/README.md)
+  * [Lucee + IIS-Boncode](aws/windows-based-images/lucee-+-iis-boncode.md)
 
 ## Digital Ocean
 
