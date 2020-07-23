@@ -39,7 +39,7 @@ This AMI image will create a running Lucee site for you. If you do not want a Co
 
 ![Launch Status](../../../.gitbook/assets/step8%20%282%29.png)
 
-* Select your running instance. This will open some tabs at the bottom of the page. Select the "Description" tab. Look to the right on the description tab and look for "Public DNS \(IPv4\)." To the right of this text is the dns name. Copy that name and paste it in a browser. I should look something like this.
+* Select your running instance. This will open some tabs at the bottom of the page. Select the "Description" tab. Look to the right on the description tab and look for "Public DNS \(IPv4\)." To the right of this text is the dns name. Copy that name and paste it in a browser. It should look something like this.
 * `ec2-{public_dns}.compute-1.amazonaws.com`
 * Paste that URL in a browser and you should see the default ColdBox site.
 
