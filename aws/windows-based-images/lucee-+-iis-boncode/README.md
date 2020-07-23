@@ -53,4 +53,9 @@ This AMI image will create a running Lucee Windows site for you. If you do not w
 * Look to the right on the description tab and look for "Public DNS \(IPv4\)." To the right of this text is the dns name. Copy that name and paste it in a browser. It should look something like this.
 * `ec2-{public_dns}.compute-1.amazonaws.com`
 * Paste that URL in a browser and you should see the default ColdBox site
+* Let's RDP to the server.
+
+![](../../../.gitbook/assets/rdp.png)
+
+
 
