@@ -19,7 +19,7 @@ This AMI image will create a running Lucee Windows site for you. If you do not w
 
 ![](../../../.gitbook/assets/instanceconfiguredetails.png)
 
-* You are now on the "Add Storage" page. Keep the defaults and click the button at the bottom right "Next: Add Tags."
+* You are now on the "Add Storage" page. If you want to persist your files, then add a volume. If you do not need to persist the files, keep the defaults and click the button at the bottom right "Next: Add Tags."
 
 ![](../../../.gitbook/assets/addstorage.png)
 
@@ -27,7 +27,7 @@ This AMI image will create a running Lucee Windows site for you. If you do not w
 
 ![](../../../.gitbook/assets/addtags.png)
 
-* You are on the "Configure Security Group" page. We need to make a couple of changes before leaving this page. First is to go to the source column and select **MyIP** so that ssh will only be enabled for your IP address \(**VERY IMPORTANT**\).
+* You are on the "Configure Security Group" page. We need to make a couple of changes before leaving this page. First is to go to the source column and select **MyIP** so that ssh and rdp will only be enabled for your IP address \(**VERY IMPORTANT**\).
 * Next click the "Add Rule" button and under the type column select **http** and leave port 80 selected. Go to the bottom right of the page and select and click the "Review and Launch" button.
 
 ![](../../../.gitbook/assets/security-group.png)
