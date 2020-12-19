@@ -23,6 +23,7 @@
     * [Managing your web site](aws/windows-based-images/lucee-+-iis-boncode/managing-your-web-site.md)
     * [Connect with VSCode](aws/windows-based-images/lucee-+-iis-boncode/connect-with-vscode.md)
     * [Changelog](aws/windows-based-images/lucee-+-iis-boncode/changelog.md)
+  * [Commandbox + Boncode](aws/windows-based-images/commandbox-+-boncode.md)
 
 ## Digital Ocean
 
