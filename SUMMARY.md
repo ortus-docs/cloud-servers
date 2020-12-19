@@ -20,8 +20,8 @@
   * [CommandBox + Nginx](aws/ubuntu-based-images/commandbox-+-nginx.md)
 * [Windows Based Images](aws/windows-based-images/README.md)
   * [Lucee + IIS-Boncode](aws/windows-based-images/lucee-+-iis-boncode/README.md)
-    * [Managing your web site](aws/windows-based-images/lucee-+-iis-boncode/managing-your-web-site/README.md)
-      * [Connect with VSCode](aws/windows-based-images/lucee-+-iis-boncode/managing-your-web-site/connect-with-vscode.md)
+    * [Managing your web site](aws/windows-based-images/lucee-+-iis-boncode/managing-your-web-site.md)
+    * [Connect with VSCode](aws/windows-based-images/lucee-+-iis-boncode/connect-with-vscode.md)
     * [Changelog](aws/windows-based-images/lucee-+-iis-boncode/changelog.md)
 
 ## Digital Ocean

@@ -17,7 +17,7 @@ The Lucee Password is the EC2 Instance ID. Once on the server we strongly urge y
 
 
 
-![](../../../../.gitbook/assets/web-site.png)
+![](../../../.gitbook/assets/web-site.png)
 
 ### Boncode Connector for IIS.
 
