@@ -18,7 +18,7 @@ This AMI image will create a running Lucee site for you. If you do not want a Co
 
 ![Add Storage](../../../.gitbook/assets/step4%20%281%29.png)
 
-* You are now on the "Add Tags" page. Let's add a tag. Click the add Tag. The y should be Key=Name and Value=Ortus Lucee CFML engine 5.2.9.31 \(Ubuntu Server 18.04 LTS\). Next go to the bottom of the page and click the button that says "Next: Configure Security Group."
+* You are now on the "Add Tags" page. Let's add a tag. Click the add Tag. They should be Key=Name and Value=Ortus Lucee CFML engine 5.2.9.31 \(Ubuntu Server 18.04 LTS\). Next go to the bottom of the page and click the button that says "Next: Configure Security Group."
 
 ![Add Tags](../../../.gitbook/assets/step5%20%282%29.png)
 
