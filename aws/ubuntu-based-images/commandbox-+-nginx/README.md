@@ -35,7 +35,7 @@ This AMI image will create a running CommandBox Lucee site for you. If you do no
 
 * You are on the "Review Launch Instance" page. Review it and once you are okay click the "Launch" bottom on the bottom right of page.
 
-![Review Launch Instance](../../../.gitbook/assets/image%20%288%29.png)
+![Review Launch Instance](../../../.gitbook/assets/image%20%2812%29.png)
 
 * This opens a module window that is prompting you to suggesting an existing key pair or create a new open. If you do not know what this means I suggest you create a new key pair and put it in a folder that you have access to. If all went well you will see a green colored headline that says "Your instances are now launching."  
 
@@ -51,7 +51,7 @@ This AMI image will create a running CommandBox Lucee site for you. If you do no
 * ssh -i "/local-path-to/myfile.pem" ubuntu@ec2-{public\_dns}.compute-1.amazonaws.com
 * When you CD to the instance the 2 web roots are at sudo su cd /var/www/website1 /var/www/website2
 
-![Running Instance](../../../.gitbook/assets/image%20%287%29.png)
+![Running Instance](../../../.gitbook/assets/image%20%2810%29.png)
 
 Enjoy your server!
 
