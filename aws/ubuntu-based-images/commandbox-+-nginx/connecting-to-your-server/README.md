@@ -9,8 +9,7 @@ This page will walk you through connecting to your new server using the popular 
 ### WinSCP let's get going
 
 * Run WinSCP
-* In the Login dialog, click on the “New” button
-* Click the "New Session" button
+* In the Login dialog, click on the “New Session” button
 * Then click the "Advanced..." button
 
 ![Connect via WinSCP](../../../../.gitbook/assets/image%20%288%29.png)
