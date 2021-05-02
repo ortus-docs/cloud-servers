@@ -21,6 +21,7 @@
     * [Managing your web site](aws/ubuntu-based-images/commandbox-+-nginx/managing-your-web-site.md)
     * [Connecting via WinSCP](aws/ubuntu-based-images/commandbox-+-nginx/connecting-to-your-server/README.md)
       * [Connecting via VSCode](aws/ubuntu-based-images/commandbox-+-nginx/connecting-to-your-server/connecting-via-vscode/README.md)
+        * [How to customize sites](aws/ubuntu-based-images/commandbox-+-nginx/connecting-to-your-server/connecting-via-vscode/how-to-customize-sites.md)
         * [Changelog](aws/ubuntu-based-images/commandbox-+-nginx/connecting-to-your-server/connecting-via-vscode/changelog.md)
 * [Windows Based Images](aws/windows-based-images/README.md)
   * [Lucee + IIS-Boncode](aws/windows-based-images/lucee-+-iis-boncode/README.md)
