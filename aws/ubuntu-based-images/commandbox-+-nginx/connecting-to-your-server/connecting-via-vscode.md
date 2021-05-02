@@ -19,12 +19,14 @@ You can install the [VSCode Remote Development Extension](https://marketplace.vi
 ![Remote-SSH: Open SSH Configuration File...](../../../../.gitbook/assets/image%20%2814%29.png)
 
 * If you have not created a configuration file you will have this option.   **Remote-SSH: Add New SSH Host...** Select that instead.
-* Your configuration file should look something like this.
+* Your configuration file should look something like this after you fill it out.
 
 ```text
 Host ColdBoxDemo
-    User Administrator
+    User ubuntu
     HostName 34.236.192.135
     IdentityFile ~/.ssh/my-pem-that-i-downloaded-when-creating-ec2.pem
 ```
+
+* Having done that it is time to connect to your ec2 instance. You 
 
