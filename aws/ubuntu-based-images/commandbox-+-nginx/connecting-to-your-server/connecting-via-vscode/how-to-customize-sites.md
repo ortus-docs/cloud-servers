@@ -53,5 +53,5 @@ server {
 }
 ```
 
-* Restart the Nginx and restart the server. Open your new site.
+* Restart Nginx and restart the server. Open your new site.
 
