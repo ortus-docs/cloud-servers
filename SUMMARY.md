@@ -29,6 +29,9 @@
     * [Connect with VSCode](aws/windows-based-images/lucee-+-iis-boncode/connect-with-vscode.md)
     * [Changelog](aws/windows-based-images/lucee-+-iis-boncode/changelog.md)
   * [Commandbox + Boncode](aws/windows-based-images/commandbox-+-boncode.md)
+  * [Contentbox 5](aws/windows-based-images/contentbox-5/README.md)
+    * [Running Contentbox](aws/windows-based-images/contentbox-5/running-contentbox.md)
+    * [Connect with VSCode](aws/windows-based-images/contentbox-5/connect-with-vscode.md)
 
 ## Digital Ocean
 
@@ -41,4 +44,3 @@
 ## Google Cloud
 
 * [Coming Soon...](google-cloud/coming-soon....md)
-
