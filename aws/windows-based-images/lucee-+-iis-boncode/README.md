@@ -4,56 +4,65 @@
 
 This AMI image will create a running Lucee Windows site for you. If you do not want a ColdBox site we will show you how to remove it and have your own site. The first step is to have an AWS account. If you do not have one go to this URL to learn how to create an \[AWS account.]\( [https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/))
 
-* Choose the AWS AMI. Go to this URL and do a search for Ortus at the top of the screen [https://aws.amazon.com/marketplace/](https://aws.amazon.com/marketplace/)
-* Click the **continue** to subscribe button
+* Choose the **Lucee CFML Server (Windows 2019+Boncode+Tomcat)** AWS AMI. Go to this URL and do a search for Ortus at the top of the screen [https://aws.amazon.com/marketplace/](https://aws.amazon.com/marketplace/) and look for "Ortus solutions, corp"
+
+![Ortus Solutions AMIs](../../../.gitbook/assets/new-console/general/ami-selection.png)
+
+* Click the **View purchase options** to subscribe button
+
+![Purchase options for Ortus Solutions AMI](../../../.gitbook/assets/new-console/windows-ami/ami-view-purchase.png)
+
 * Click the **accept terms** button
-* Next go to this page and click launch new instance [https://console.aws.amazon.com/marketplace/home?#/subscriptions](https://console.aws.amazon.com/marketplace/home?#/subscriptions)
-* This will take you to the "Choose an Instance Type." The default instance and AWS free tier selected is t3.micro. Unless you need more resources keep it at this. Go to the bottom of the screen and select Next:`Configure Instance Details`.&#x20;
 
-![](../../../.gitbook/assets/instance-type.png)
+![Accept terms for Ortus Solutions AMI](../../../.gitbook/assets/new-console/windows-ami/ami-accept-terms.png)
 
-![](../../../.gitbook/assets/instance-type.png)
+* Configuration options for subscription. In this section you can chose to add options to your contract, if not, You can click on "Continue configuration" button.
 
-* You are on the "Configure Instance Details" page and keep the defaults. Go to the bottom of the page and click the "Next: Add Storage" button.&#x20;
-* You are on the "Configure Instance Details" page and keep the defaults. Go to the bottom of the page and click the "Next: Add Storage" button.&#x20;
+![AMI subcription options](../../../.gitbook/assets/new-console/windows-ami/ami-subscription-options.png)
 
-![](../../../.gitbook/assets/InstanceConfigureDetails.png)
+* You can configure your Ortus Soluction software version or region, if not, just click on "Continue to Launch" button.
 
-* You are now on the "Add Storage" page. If you want to persist your files, then add a volume. If you do not need to persist the files, keep the defaults and click the button at the bottom right "Next: Add Tags."
+![Ortus Solution software configuration](../../../.gitbook/assets/new-console/windows-ami/ami-configure-options.png)
 
-![](../../../.gitbook/assets/AddStorage.png)
+* In "Launch" section you can choso method to launch, for this case, We're going to use EC2 method.
 
-* You are now on the "Add Tags" page. Let's add a tag. Click the add Tag. The y should be Key=Name and Value=Ortus Lucee CFML engine 5.3.6.61 (Windows Server 2019). Next go to the bottom of the page and click the button that says "Next: Configure Security Group."
+![Instance launch method](../../../.gitbook/assets/new-console/windows-ami/ami-launch-method.png)
 
-![](../../../.gitbook/assets/AddTags.png)
+* On the "Name and tags" page. Let's add a tag. Click the add Tag. They should be Key=Name and Value=Ortus Lucee CFML engine 5.3.6.61 (Windows Server 2019) Resource type=Instances.
 
-* You are on the "Configure Security Group" page. We need to make a couple of changes before leaving this page. First is to go to the source column and select **MyIP** so that ssh and rdp will only be enabled for your IP address (**VERY IMPORTANT**).
-* Next click the "Add Rule" button and under the type column select **http** and leave port 80 selected. Go to the bottom right of the page and select and click the "Review and Launch" button.
+![Instance name and tags](../../../.gitbook/assets/new-console/windows-ami/instance-name-tags.png)
 
-![](<../../../.gitbook/assets/security-group (1).png>)
+* This will take you to the "Choose an Instance Type." The default instance and AWS free tier selected is `t3.micro`. Unless you need more resources keep it at this. For this guide We're using `t2.medium` size.&#x20;
 
-* You are on the "Review Launch Instance" page. Review it and once you are okay click the "Launch" bottom on the bottom right of page.
+![Instance type](../../../.gitbook/assets/new-console/windows-ami/instance-type.png)
 
-![Review Instance Launch](../../../.gitbook/assets/ReviewLaunch.png)
+* If You desire or You do not have Key pair, You can generate new ones in "Key pair (login)" section. **SAVE IT IN A SECURE PLACE!**&#x20;
 
-* This opens a module window that prompts you to an existing key pair or to create a new key pair. If you do not know what this means I suggest you create a new key pair and put it in a folder that you have access to. If all went well you will see a green colored headline that says "Your instances are now launching." &#x20;
+![Key pair creation for instance](../../../.gitbook/assets/new-console/windows-ami/instance-keypair-creation.png)
 
-![](<../../../.gitbook/assets/key-pair (1).png>)
+* On the "Network settings" section under "Firewall (Security groups)". We need to make a couple of changes. First is to go to the source column and select **My IP** so that SSH and RDP will only be enabled for your IP address (**VERY IMPORTANT**). Next allow **HTTP** and **HTTPS**. You can edit VPC, Subnet and Public IP configuration.
+
+![Instance security group](../../../.gitbook/assets/new-console/windows-ami/instance-sg.png)
+
+* On "Configure Storage" section. If you want to persist your files, then add a volume. If you do not need to persist the files, keep the defaults.
+
+![Instance storage](../../../.gitbook/assets/new-console/windows-ami/instance-storage.png)
+
+* On "Summary" section you can review general information about your instance, cancel operation, launch instance and also, you can generate AWS CLI commands to deploy EC2 instance with desired configuration.
+
+![Instance Summay](../../../.gitbook/assets/new-console/windows-ami/instance-summay.png)
 
 * You are on the "Launch Status" page. Go to the bottom right and click the button labeled "View Instances."&#x20;
 
-![](../../../.gitbook/assets/LaunchStatus.png)
+![Instance launch status](../../../.gitbook/assets/new-console/windows-ami/instance-launch-status.png)
 
-* Select your running instance. This will open some tabs at the bottom of the page. Click the action menu at the top of the page. Then click Windows Password. This will open a dialog asking you to decrypt your Windows RDP administrative password using the pem file you downloaded or the pem file you selected.
+* Select your running instance. This will open some tabs at the bottom of the page. Click on "Connect" at the top of the page. Then click "RDP client". Click on "Get password" button, this will open a dialog asking you to decrypt your Windows RDP administrative password using the pem file you downloaded or the pem file you selected.
 
-![](../../../.gitbook/assets/GetWinPassword.png)
+![Get instance password](../../../.gitbook/assets/new-console/windows-ami/instance-get-password.png)
 
-![](../../../.gitbook/assets/Password.png)
+![Decrypted instance password](../../../.gitbook/assets/new-console/windows-ami/instance-decrypted-password.png)
 
-* Look to the right on the description tab and look for "Public DNS (IPv4)." To the right of this text is the dns name. Copy that name and paste it in a browser. It should look something like this.
-* `ec2-{public_dns}.compute-1.amazonaws.com`
-* Paste that URL in a browser and you should see the default ColdBox site
-* Let's RDP to the server.
+* Download remote desktop file and Log in to manage your instnace.
 
-![](../../../.gitbook/assets/RDP.png)
+![RDP Connection to instance](../../../.gitbook/assets/new-console/windows-ami/instance-rdp.png)
 
