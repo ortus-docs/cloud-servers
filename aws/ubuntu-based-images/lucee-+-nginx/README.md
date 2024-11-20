@@ -2,50 +2,67 @@
 
 This AMI image will create a running Lucee site for you. If you do not want a ColdBox site we will show you how to remove it and have your own site. The first step is to have an AWS account. If you do not have one go to this URL to learn how to create an \[AWS account.]\( [https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/))
 
-* Choose the AWS AMI. Go to this URL and do a search for Ortus at the top of the screen [https://aws.amazon.com/marketplace/](https://aws.amazon.com/marketplace/)
-* Click the **continue** to subscribe button
-* Click the **accept terms** button
-* Next go to this page and click launch new instance [https://console.aws.amazon.com/marketplace/home?#/subscriptions](https://console.aws.amazon.com/marketplace/home?#/subscriptions)
-* This will take you to the "Choose an Instance Type." The default instance and AWS free tier selected is t3.micro. Unless you need more resources keep it at this. Go to the bottom of the screen and select Next:`Configure Instance Details`.&#x20;
+* Choose the **Lucee CFML Server (Ubuntu+Nginx+Tomcat)** AWS AMI. Go to this URL and do a search for Ortus at the top of the screen [https://aws.amazon.com/marketplace/](https://aws.amazon.com/marketplace/) and look for "Ortus solutions, corp"
 
-![Choose an Instance Type](<../../../.gitbook/assets/step2 (7).png>)
+![Ortus Solutions AMIs](../../../.gitbook/assets/new-console/general/ami-selection.png)
 
-* You are on the "Configure Instance Details" page and keep the defaults. Go to bottom of the page and click "Next: Add Storage" button.    &#x20;
+* Click the **View purchase options** to subscribe button
 
-![Configure Instance Details](../../../.gitbook/assets/step3.png)
+![Purchase options for Ortus Solutions AMI](../../../.gitbook/assets/new-console/ubuntu-ami/ami-purchase-options.png)
 
-* You are now on the "Add Storage" page. Keep the defaults and click the button at the bottom right "Next: Add Tags."
+* Click the **accept terms** button.
 
-![Add Storage](<../../../.gitbook/assets/step4 (1).png>)
+![Accept terms for Ortus Solutions AMI](../../../.gitbook/assets/new-console/ubuntu-ami/ami-accept-terms.png)
 
-* You are now on the "Add Tags" page. Let's add a tag. Click the add Tag. They should be Key=Name and Value=Ortus Lucee CFML engine 5.2.9.31 (Ubuntu Server 18.04 LTS). Next go to the bottom of the page and click the button that says "Next: Configure Security Group."
+* Configuration options for subscription. In this section you can choose to add options to your contract, if not, You can click on "Continue configuration" button.
 
-![Add Tags](<../../../.gitbook/assets/step5 (1).png>)
+![AMI subcription options](../../../.gitbook/assets/new-console/ubuntu-ami/ami-subscription-options.png)
 
-* You are on the "Configure Security Group" page. We need to make a couple of changes before leaving this page. First is to go to the source column and select **MyIP** so that ssh will only be enabled for your IP address (**VERY IMPORTANT**).
-* Next click the "Add Rule" button and under the type column select **http** and leave port 80 selected. Go to the bottom right of the page and select and click the "Review and Launch" button.
+* You can configure your Ortus Soluction software version or region, if not, just click on "Continue to Launch" button.
 
-![Configure Security Group](<../../../.gitbook/assets/step6 (2).png>)
+![Ortus Solution software configuration](../../../.gitbook/assets/new-console/ubuntu-ami/ami-configure-software.png)
 
-* You are on the "Review Launch Instance" page. Review it and once you are okay click the "Launch" bottom on the bottom right of page.
+* In "Launch" section you can choose method to launch, for this case, We're going to use EC2 method.
 
-![Review Instance Launch](../../../.gitbook/assets/step7.png)
+![Instance launch method](../../../.gitbook/assets/new-console/ubuntu-ami/ami-launch-method.png)
 
-* This opens a module window that is prompting you to suggesting an existing key pair or create a new open. If you do not know what this means I suggest you create a new key pair and put it in a folder that you have access to. If all went well you will see a green colored headline that says "Your instances are now launching." &#x20;
+* On the "Name and tags" page. Let's add a tag. Click the add Tag. They should be Key=Name and Value=Ortus Lucee CFML engine 5.2.9.31 (Ubuntu Server 18.04 LTS) Resource type=Instances.
 
-![Select Key Pair](<../../../.gitbook/assets/step7a (2).png>)
+![Instance name and tags](../../../.gitbook/assets/new-console/ubuntu-ami/instance-name-tags.png)
+
+* This will take you to the "Choose an Instance Type." The default instance and AWS free tier selected is `t3.micro`. Unless you need more resources keep it at this.&#x20;
+
+![Instance type](../../../.gitbook/assets/new-console/ubuntu-ami/instance-type.png)
+
+* If You desire or You do not have Key pair, You can generate new ones in "Key pair (login)" section. **SAVE IT IN A SECURE PLACE!**&#x20;
+
+![Key pair creation for instance](../../../.gitbook/assets/new-console/ubuntu-ami/instance-keypair.png)
+
+* On the "Network settings" section under "Firewall (Security groups)". We need to make a couple of changes. First is to go to the source column and select **My IP** so that SSH and RDP will only be enabled for your IP address (**VERY IMPORTANT**). Next allow **HTTP** and **HTTPS**. You can edit VPC, Subnet and Public IP configuration.
+
+![Instance security group](../../../.gitbook/assets/new-console/ubuntu-ami/instance-sg.png)
+
+* On "Configure Storage" section. If you want to persist your files, then add a volume. If you do not need to persist the files, keep the defaults.
+
+![Instance storage](../../../.gitbook/assets/new-console/ubuntu-ami/instance-storage.png)
+
+* On "Summary" section you can review general information about your instance, cancel operation, launch instance and also, you can generate AWS CLI commands to deploy EC2 instance with desired configuration.
+
+![Instance Summay](../../../.gitbook/assets/new-console/ubuntu-ami/instance-summary.png)
 
 * You are on the "Launch Status" page. Go to the bottom right and click the button labeled "View Instances."&#x20;
 
-![Launch Status](<../../../.gitbook/assets/step8 (3).png>)
+![Instance launch status](../../../.gitbook/assets/new-console/ubuntu-ami/instance-status.png)
 
-* Select your running instance. This will open some tabs at the bottom of the page. Select the "Description" tab. Look to the right on the description tab and look for "Public DNS (IPv4)." To the right of this text is the dns name. Copy that name and paste it in a browser. It should look something like this.
-* `ec2-{public_dns}.compute-1.amazonaws.com`
+* Select your running instance. This will open some tabs at the bottom of the page. Select the "Description" tab. Look to the right on the description tab and look for "Public DNS (IPv4)." To the right of this text is the DNS name. Copy that name and paste it in a browser. It should look something like this `ec2-{public_dns}.compute-1.amazonaws.com`.
+
+![Instance view page](../../../.gitbook/assets/new-console/ubuntu-ami/instance-view.png)
+
 * Paste that URL in a browser and you should see the default ColdBox site.
-* ssh -i "/local-path-to/myfile.pem" ubuntu@ec2-{public\_dns}.compute-1.amazonaws.com
-* When you CD to the instance the web root is sudo su cd /web/coldbox-site/wwwroot
 
-![](../../../.gitbook/assets/step9.png)
+* SSH to your instance with following command `ssh -i "/path/to/your/private-key" ubuntu@ec2-{public\_dns}.compute-1.amazonaws.com`
+
+* When you SSH to the instance the web root is /web/coldbox-site/wwwroot **RUN ``cd`` COMMAND WITH SUDO OR ``su`` TO ROOT USER**
 
 Enjoy your servers!
 
