@@ -33,13 +33,15 @@
     * [Running Contentbox](aws/windows-based-images/contentbox-5/running-contentbox.md)
     * [Connect with VSCode](aws/windows-based-images/contentbox-5/connect-with-vscode.md)
 
+## Azure
+
+* [Overview](azure/coming-soon...md)
+* [Ubuntu Based Images](azure/ubuntu-based-images/README.md)
+  * [Boxlang with CommandBox](azure/ubuntu-based-images/commandbox-+-boxlang/README.md)
+
 ## Digital Ocean
 
 * [Coming Soon..](digital-ocean/coming-soon...md)
-
-## Azure
-
-* [Coming Soon..](azure/coming-soon...md)
 
 ## Google Cloud
 
