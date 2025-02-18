@@ -38,6 +38,7 @@
 * [Overview](azure/coming-soon...md)
 * [Ubuntu Based Images](azure/ubuntu-based-images/README.md)
   * [Boxlang with CommandBox](azure/ubuntu-based-images/commandbox-+-boxlang/README.md)
+  * [Boxlang Miniserver with + Nginx](azure/ubuntu-based-images/boxlangMiniserver-+-Nginx/README.md)
 
 ## Digital Ocean
 
