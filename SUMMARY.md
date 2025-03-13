@@ -9,7 +9,7 @@
   * [Author](intro/about-this-book/author.md)
 * [EULA](intro/eula.md)
 
-## AWS
+## aws
 
 * [Overview](aws/overview.md)
 * [Ubuntu Based Images](aws/ubuntu-based-images/README.md)
@@ -33,20 +33,20 @@
     * [Running Contentbox](aws/windows-based-images/contentbox-5/running-contentbox.md)
     * [Connect with VSCode](aws/windows-based-images/contentbox-5/connect-with-vscode.md)
 
-## Azure
+## microsoft
 
-* [Overview](azure/overview.md)
-* [Ubuntu Based Images](azure/ubuntu-based-images/README.md)
-  * [Boxlang with CommandBox](azure/ubuntu-based-images/commandbox-+-boxlang/README.md)
-  * [Boxlang Miniserver with Nginx](azure/ubuntu-based-images/boxlangMiniserver-+-Nginx/README.md)
-* [Windows Based Images](azure/windows-based-images/README.md)
-  * [Boxlang with CommandBox](azure/windows-based-images/boxlang-with-commandbox/README.md)
-  * [Boxlang Miniserver + IIS](azure/windows-based-images/boxlang-miniserver-+-IIS/README.md)
+* [Overview](microsoft/overview.md)
+* [Ubuntu Based Images](microsoft/ubuntu-based-images/README.md)
+  * [Boxlang with CommandBox](microsoft/ubuntu-based-images/commandbox-+-boxlang.md)
+  * [Boxlang Miniserver with Nginx](microsoft/ubuntu-based-images/boxlangminiserver-+-nginx.md)
+* [Windows Based Images](microsoft/windows-based-images/README.md)
+  * [Boxlang with CommandBox](microsoft/windows-based-images/boxlang-with-commandbox.md)
+  * [Boxlang Miniserver + IIS](microsoft/windows-based-images/boxlang-miniserver-+-iis.md)
+
+## googl
+
+* [Coming Soon...](googl/coming-soon....md)
 
 ## Digital Ocean
 
 * [Coming Soon..](digital-ocean/coming-soon...md)
-
-## Google Cloud
-
-* [Coming Soon...](google-cloud/coming-soon....md)
