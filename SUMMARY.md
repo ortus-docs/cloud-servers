@@ -35,10 +35,14 @@
 
 ## Azure
 
-* [Overview](azure/coming-soon...md)
+* [Overview](azure/overview.md)
 * [Ubuntu Based Images](azure/ubuntu-based-images/README.md)
+  * [Deploying Boxlang Ubuntu Cloud Servers](azure/ubuntu-based-images/deploying-boxlang-ubuntu-cloud-servers/README.md)
   * [Boxlang with CommandBox](azure/ubuntu-based-images/commandbox-+-boxlang/README.md)
-  * [Boxlang Miniserver with + Nginx](azure/ubuntu-based-images/boxlangMiniserver-+-Nginx/README.md)
+  * [Boxlang Miniserver with Nginx](azure/ubuntu-based-images/boxlangMiniserver-+-Nginx/README.md)
+* [Windows Based Images](azure/windows-based-images/README.md)
+  * [Boxlang with CommandBox](azure/windows-based-images/boxlang-with-commandbox/README.md)
+  * [Boxlang Miniserver + IIS](azure/windows-based-images/boxlang-miniserver-+-IIS/README.md)
 
 ## Digital Ocean
 

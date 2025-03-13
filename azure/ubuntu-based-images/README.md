@@ -1,4 +1,4 @@
-# Ubuntu 24.04 LTS Based Images
+# Deploying Boxlang Ubuntu Cloud Servers
 
 Create an Azure Virtual Machine from an Ortus Boxlang with CommandBox \(Ubuntu Server 24.04 LTS\) Virtual Machine \(Azure VM\).  We have created several based Ubuntu based images.
 
