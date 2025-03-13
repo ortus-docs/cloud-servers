@@ -1,14 +1,14 @@
-# CommandBox + Boxlang
+# CommandBox + BoxLang
 
-This Azure Virtual Machine create a runnging ColdBox Site using Boxlang as CFML Engine for you. If you do not want a ColdBox site we will show you how to remove it and have your own site. For deploying this Virtual Machine you need a Microsoft Subscription, if not have one follow this [link](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account) to get 200 USD of credits.
+This Azure Virtual Machine create a runnging ColdBox Site using BoxLang as CFML Engine for you. If you do not want a ColdBox site we will show you how to remove it and have your own site. For deploying this Virtual Machine you need a Microsoft Subscription, if not have one follow this [link](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account) to get 200 USD of credits.
 
-In Azure Marketplace you find this Virtual Machine offer as [**Boxlang with CommandBox Ubuntu 24.04**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/ortus.boxlang-commanbox-server-ubuntu-2404?tab=Overview) or look for **Ortus Solutions, Corp** to look for out full catalog.
+In Azure Marketplace you find this Virtual Machine offer as [**BoxLang with CommandBox Ubuntu 24.04**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/ortus.boxlang-commanbox-server-ubuntu-2404?tab=Overview) or look for **Ortus Solutions, Corp** to look for out full catalog.
 
-## Deploy Boxlang with CommandBox Ubuntu 24.04 from Azure Marketplace
+## Deploy BoxLang with CommandBox Ubuntu 24.04 from Azure Marketplace
 
 * In the overview product click on **create** button to start deployment proccess
 
-![Boxlang with CommandBox on Ubuntu 24.04 overview](../../../.gitbook/assets/azure/boxlangWithCommandbox/boxlangWithCommandBoxOverview.png)
+![BoxLang with CommandBox on Ubuntu 24.04 overview](../../../.gitbook/assets/azure/boxlangWithCommandbox/boxlangWithCommandBoxOverview.png)
 
 * In **Basics** tab select your Azure Subscription, resource group and region where Virtual Machine reside. Also, you set here Name, Availability zone, Size, Username and your desired method to login of your Virtual Machine.
 
@@ -38,6 +38,6 @@ In Azure Marketplace you find this Virtual Machine offer as [**Boxlang with Comm
 
 ![Tag configuration of your Virtual Machine](../../../.gitbook/assets/azure/boxlangWithCommandbox/tagSettings.png)
 
-* **Review + create** tab let you see all your configurations and alerts you if any of them need review or change, if not, click on **create** to deploy your **Boxlang with CommandBox Ubuntu 24.04** Virtual Machine.
+* **Review + create** tab let you see all your configurations and alerts you if any of them need review or change, if not, click on **create** to deploy your **BoxLang with CommandBox Ubuntu 24.04** Virtual Machine.
 
 ![Review and create configuration of your Virtual Machine](../../../.gitbook/assets/azure/boxlangWithCommandbox/reviewCreate.png)

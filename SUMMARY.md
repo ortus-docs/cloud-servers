@@ -37,11 +37,11 @@
 
 * [Overview](microsoft/overview.md)
 * [Ubuntu Based Images](microsoft/ubuntu-based-images/README.md)
-  * [Boxlang with CommandBox](microsoft/ubuntu-based-images/commandbox-+-boxlang.md)
-  * [Boxlang Miniserver with Nginx](microsoft/ubuntu-based-images/boxlangminiserver-+-nginx.md)
+  * [BoxLang with CommandBox](microsoft/ubuntu-based-images/commandbox-+-boxlang.md)
+  * [BoxLang Miniserver with Nginx](microsoft/ubuntu-based-images/boxlangminiserver-+-nginx.md)
 * [Windows Based Images](microsoft/windows-based-images/README.md)
-  * [Boxlang with CommandBox](microsoft/windows-based-images/boxlang-with-commandbox.md)
-  * [Boxlang Miniserver + IIS](microsoft/windows-based-images/boxlang-miniserver-+-iis.md)
+  * [BoxLang with CommandBox](microsoft/windows-based-images/boxlang-with-commandbox.md)
+  * [BoxLang Miniserver + IIS](microsoft/windows-based-images/boxlang-miniserver-+-iis.md)
 
 ## googl
 

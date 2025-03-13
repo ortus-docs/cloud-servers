@@ -10,6 +10,6 @@ For deploying this Virtual Machine you need a Microsoft Subscription, if not hav
 
 ## Azure Microsoft
 
-Azure Microsoft is the place where you can find our Ortus Boxlang Cloud Servers, you can deploy from here and see the differents plans to use them. You are able to deploy a simple tiny server of high performance server, if you already have a Subscription, login with you Microsoft Account and look at our BoxLang Virtual Machines offers at this URL https://azuremarketplace.microsoft.com/en-us/marketplace/apps?page=1&search=BoxLang
+Azure Microsoft is the place where you can find our Ortus BoxLang Cloud Servers, you can deploy from here and see the differents plans to use them. You are able to deploy a simple tiny server of high performance server, if you already have a Subscription, login with you Microsoft Account and look at our BoxLang Virtual Machines offers at this URL https://azuremarketplace.microsoft.com/en-us/marketplace/apps?page=1&search=BoxLang
 
 ![](../.gitbook/assets/azure/azure-marketplace.png)

@@ -1,1 +1,1 @@
-## Connecting to your Boxlang Ubuntu based Cloud Server
+## Connecting to your BoxLang Ubuntu based Cloud Server
