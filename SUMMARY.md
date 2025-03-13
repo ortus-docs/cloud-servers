@@ -37,7 +37,6 @@
 
 * [Overview](azure/overview.md)
 * [Ubuntu Based Images](azure/ubuntu-based-images/README.md)
-  * [Deploying Boxlang Ubuntu Cloud Servers](azure/ubuntu-based-images/deploying-boxlang-ubuntu-cloud-servers/README.md)
   * [Boxlang with CommandBox](azure/ubuntu-based-images/commandbox-+-boxlang/README.md)
   * [Boxlang Miniserver with Nginx](azure/ubuntu-based-images/boxlangMiniserver-+-Nginx/README.md)
 * [Windows Based Images](azure/windows-based-images/README.md)

@@ -7,7 +7,7 @@ This book is born out of a need to keep introducing our customers to new and inn
 * Amazon Web Services \(AWS\)
 * Digital Ocean \(`Coming soon`\)
 * Google Cloud \(`Coming soon`\)
-* Azure Cloud \(`Coming soon`\)
+* Azure Cloud \(`Available now!`\)
 
 ## Cloud Servers
 

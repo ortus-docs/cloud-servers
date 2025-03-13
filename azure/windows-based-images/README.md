@@ -2,10 +2,10 @@
 
 Create an Azure Virtual Machine from an Ortus Boxlang with CommandBox \(Ubuntu Server 24.04 LTS\) Virtual Machine \(Azure VM\).  We have created several based Ubuntu based images.
 
-|  | Images | Status |
-| :--- | :--- | :--- |
-|  | Boxlang with CommandBox | :white_check_mark: |
-|  | Boxlang Miniserver + Nginx | :white_check_mark: |
+| Images | Status |
+| :--- | :--- |
+| Boxlang with CommandBox | :white_check_mark: |
+| Boxlang Miniserver + Nginx | :white_check_mark: |
 
 ## Software and tools installed matrix
 
