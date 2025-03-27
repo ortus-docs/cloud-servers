@@ -14,6 +14,7 @@
 * [Overview](aws/overview.md)
 * [Ubuntu Based Images](aws/ubuntu-based-images/README.md)
   * [BoxLang with CommandBox](aws/ubuntu-based-images/boxlang-with-commandbox/README.md)
+  * [Boxlang MiniServer with Nginx](aws/ubuntu-based-images/boxlang-miniserver-with-nginx/README.md)
   * [Lucee + Nginx](aws/ubuntu-based-images/lucee-+-nginx/README.md)
     * [Managing your web site](aws/ubuntu-based-images/lucee-+-nginx/managing-your-web-site/README.md)
       * [Connecting to your server](aws/ubuntu-based-images/lucee-+-nginx/managing-your-web-site/connecting-to-your-server.md)
