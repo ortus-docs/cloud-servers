@@ -26,6 +26,8 @@
         * [How to customize sites](aws/ubuntu-based-images/commandbox-+-nginx/connecting-to-your-server/connecting-via-vscode/how-to-customize-sites.md)
         * [Changelog](aws/ubuntu-based-images/commandbox-+-nginx/connecting-to-your-server/connecting-via-vscode/changelog.md)
 * [Windows Based Images](aws/windows-based-images/README.md)
+  * [BoxLang with CommandBox](aws/windows-based-images/boxlang-with-commandbox/README.md)
+  * [BoxLang MiniServer with IIS](aws/windows-based-images/boxlang-miniserver-with-iis/README.md)
   * [Lucee + IIS-Boncode](aws/windows-based-images/lucee-+-iis-boncode/README.md)
     * [Managing your web site](aws/windows-based-images/lucee-+-iis-boncode/managing-your-web-site.md)
     * [Connect with VSCode](aws/windows-based-images/lucee-+-iis-boncode/connect-with-vscode.md)
