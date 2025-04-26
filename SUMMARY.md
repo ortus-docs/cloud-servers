@@ -15,7 +15,7 @@
 * [Ubuntu Based Images](aws/ubuntu-based-images/README.md)
   * [BoxLang with CommandBox](aws/ubuntu-based-images/boxlang-with-commandbox/README.md)
   * [Boxlang MiniServer with Nginx](aws/ubuntu-based-images/boxlang-miniserver-with-nginx/README.md)
-  * Other Engines
+  * [Other Engines](aws/ubuntu-based-images/other-engines.md)
     * [Lucee + Nginx](aws/ubuntu-based-images/lucee-+-nginx/README.md)
       * [Managing your web site](aws/ubuntu-based-images/lucee-+-nginx/managing-your-web-site/README.md)
         * [Connecting to your server](aws/ubuntu-based-images/lucee-+-nginx/managing-your-web-site/connecting-to-your-server.md)
@@ -29,7 +29,7 @@
 * [Windows Based Images](aws/windows-based-images/README.md)
   * [BoxLang with CommandBox](aws/windows-based-images/boxlang-with-commandbox/README.md)
   * [BoxLang MiniServer with IIS](aws/windows-based-images/boxlang-miniserver-with-iis/README.md)
-  * Other Engines
+  * [Other Engines](aws/windows-based-images/other-engines.md)
     * [Lucee + IIS-Boncode](aws/windows-based-images/lucee-+-iis-boncode/README.md)
       * [Managing your web site](aws/windows-based-images/lucee-+-iis-boncode/managing-your-web-site.md)
       * [Connect with VSCode](aws/windows-based-images/lucee-+-iis-boncode/connect-with-vscode.md)

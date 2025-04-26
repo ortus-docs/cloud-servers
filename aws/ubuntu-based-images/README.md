@@ -1,20 +1,30 @@
 # Ubuntu Based Images
 
-Create an ec2 instance from an Ortus Lucee CFML engine \(Ubuntu Server 18.04 LTS\) AMI \(Amazon Machine Image\).  We have created several based Ubuntu based images.
+Create an EC2 instances from an Ortus BoxLang engine \(Ubuntu Server 24.04 LTS\) AMI \(Amazon Machine Image\).  We have created several based Ubuntu based images.
 
-|  | Images | Status |
-| :--- | :--- | :--- |
-|  | Lucee + Nginx | √ |
-|  | CommandBox + Nginx |  |
+| Images                        | Status                                          |
+| ----------------------------- | ----------------------------------------------- |
+| BoxLang MiniServer with Nginx | :white_check_mark:                              |
+| BoxLang with CommandBox       | :white_check_mark:                              |
 
-## Lucee Versions
+## Software and tools installed matrix
 
-We will be creating images that support different Lucee Versions. Please note that you can update and patch each instance as you see fit as well.
+On every Ubuntu based Cloud Server you will find software or tools to achieve best experience with our solutions. This software include:
 
-| Lucee Version | Status |
-| :--- | :--- |
-| 5.3.2.9 | √ |
-| 5.3.5+92 | In Progress |
+|**Tool name**|**Version installed**|**BoxLang Miniserver + Nginx**|**BoxLang with CommandBox**|
+|-------------|---------------------|------------------------------|---------------------------|
+|CommandBox   |Latest stable version| :white_check_mark:           | :white_check_mark:        |
+|BoxLang CFEngine (into CommandBox)|Latest version|:x:|:white_check_mark:|
+|BoxLang Miniserver (As OS binary)|Latest version|:white_check_mark:|:x:|
+|ColdBox Application|Latest|:white_check_mark:|:white_check_mark:|
+|Nginx as HTTP Reverse Proxy|Latest stable version|:white_check_mark:|:x:|
 
+Due these Cloud Servers are Ubuntu 24.04 LTS based, you can follow this [link](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/canonical.ubuntu-24_04-lts?tab=overview) to know more about base software running.
 
+## Environment variables
 
+|**Variable**|**Default value**|**Description**|
+|-------------|-----------------|--------------|
+|BOXLANG_HOME|`/root/.boxlang`|Directory where BoxLang place configs and modules|
+|COMMANDBOX_HOME|`/root/.commandbox`|Directory where CommandBox place configs and modules|
+|BOXLANG_TARGET_VERSION| `1.0.0-rc.3` |BoxLang version installed and to be used for BoxLang|
