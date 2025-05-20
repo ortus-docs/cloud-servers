@@ -14,7 +14,8 @@
 * [Overview](aws/overview.md)
 * [Ubuntu Based Images](aws/ubuntu-based-images/README.md)
   * [BoxLang with CommandBox](aws/ubuntu-based-images/boxlang-with-commandbox/README.md)
-  * [Boxlang MiniServer with Nginx](aws/ubuntu-based-images/boxlang-miniserver-with-nginx/README.md)
+  * [Boxlang MiniServer](aws/ubuntu-based-images/boxlang-miniserver/README.md)
+    * [Changelog](aws/ubuntu-based-images/boxlang-miniserver/changelog.md)
   * [Other Engines](aws/ubuntu-based-images/other-engines.md)
     * [Lucee + Nginx](aws/ubuntu-based-images/lucee-+-nginx/README.md)
       * [Managing your web site](aws/ubuntu-based-images/lucee-+-nginx/managing-your-web-site/README.md)
@@ -28,7 +29,8 @@
           * [Changelog](aws/ubuntu-based-images/commandbox-+-nginx/connecting-to-your-server/connecting-via-vscode/changelog.md)
 * [Windows Based Images](aws/windows-based-images/README.md)
   * [BoxLang with CommandBox](aws/windows-based-images/boxlang-with-commandbox/README.md)
-  * [BoxLang MiniServer with IIS](aws/windows-based-images/boxlang-miniserver-with-iis/README.md)
+  * [BoxLang MiniServer](aws/windows-based-images/boxlang-miniserver-with-iis/README.md)
+    * [Changelog](aws/windows-based-images/boxlang-miniserver/changelog.md)
   * [Other Engines](aws/windows-based-images/other-engines.md)
     * [Lucee + IIS-Boncode](aws/windows-based-images/lucee-+-iis-boncode/README.md)
       * [Managing your web site](aws/windows-based-images/lucee-+-iis-boncode/managing-your-web-site.md)
@@ -43,13 +45,14 @@
 
 * [Overview](microsoft/overview.md)
 * [Ubuntu Based Images](microsoft/ubuntu-based-images/README.md)
-  * [BoxLang with CommandBox](microsoft/ubuntu-based-images/commandbox-+-boxlang.md)
-  * [BoxLang Miniserver with Nginx](microsoft/ubuntu-based-images/boxlangminiserver-+-nginx.md)
+  * [BoxLang with CommandBox](microsoft/ubuntu-based-images/boxlang-with-commandbox/commandbox-+-boxlang.md)
+  * [BoxLang Miniserver](microsoft/ubuntu-based-images/boxlang-miniserver/boxlangminiserver-+-nginx.md)
+    * [Changelog](microsoft/ubuntu-based-images/boxlang-miniserver/changelog.md)
 * [Windows Based Images](microsoft/windows-based-images/README.md)
   * [BoxLang with CommandBox](microsoft/windows-based-images/boxlang-with-commandbox.md)
   * [BoxLang Miniserver + IIS](microsoft/windows-based-images/boxlang-miniserver-+-iis.md)
 
-## googl
+## google
 
 * [Coming Soon...](googl/coming-soon....md)
 
