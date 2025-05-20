@@ -2,7 +2,7 @@
 
 This Azure Virtual Machine create a runnging ColdBox Site using BoxLang with bx-compat-cfml module for you. If you do not want a ColdBox site we will show you how to remove it and have your own site. For deploying this Virtual Machine you need a Microsoft Subscription, if not have one follow this [link](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account) to get 200 USD of credits.
 
-In Azure Marketplace you find this Virtual Machine offer as [**BoxLang Miniserver with CommandBox and NGINX Ubuntu 24.04**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/ortus.boxlangminiserver-commandbox-nginx-ubuntu-2404?tab=Overview) or look for **Ortus Solutions, Corp** to look for out full catalog.
+In Azure Marketplace you find this Virtual Machine offer as [**BoxLang Miniserver with CommandBox and NGINX Ubuntu 24.04**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/ortus.boxlang-miniserver-ubuntu?tab=Overview) or look for **Ortus Solutions, Corp** to look for out full catalog.
 
 ## Deploy BoxLang Miniserver with CommandBox and NGINX Ubuntu 24.04 from Azure Marketplace
 

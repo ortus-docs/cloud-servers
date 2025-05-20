@@ -29,7 +29,7 @@
           * [Changelog](aws/ubuntu-based-images/commandbox-+-nginx/connecting-to-your-server/connecting-via-vscode/changelog.md)
 * [Windows Based Images](aws/windows-based-images/README.md)
   * [BoxLang with CommandBox](aws/windows-based-images/boxlang-with-commandbox/README.md)
-  * [BoxLang MiniServer](aws/windows-based-images/boxlang-miniserver-with-iis/README.md)
+  * [BoxLang MiniServer](aws/windows-based-images/boxlang-miniserver/README.md)
     * [Changelog](aws/windows-based-images/boxlang-miniserver/changelog.md)
   * [Other Engines](aws/windows-based-images/other-engines.md)
     * [Lucee + IIS-Boncode](aws/windows-based-images/lucee-+-iis-boncode/README.md)
@@ -46,11 +46,11 @@
 * [Overview](microsoft/overview.md)
 * [Ubuntu Based Images](microsoft/ubuntu-based-images/README.md)
   * [BoxLang with CommandBox](microsoft/ubuntu-based-images/boxlang-with-commandbox/commandbox-+-boxlang.md)
-  * [BoxLang Miniserver](microsoft/ubuntu-based-images/boxlang-miniserver/boxlangminiserver-+-nginx.md)
+  * [BoxLang Miniserver](microsoft/ubuntu-based-images/boxlang-miniserver/boxlang-miniserver.md)
     * [Changelog](microsoft/ubuntu-based-images/boxlang-miniserver/changelog.md)
 * [Windows Based Images](microsoft/windows-based-images/README.md)
   * [BoxLang with CommandBox](microsoft/windows-based-images/boxlang-with-commandbox.md)
-  * [BoxLang Miniserver + IIS](microsoft/windows-based-images/boxlang-miniserver-+-iis.md)
+  * [BoxLang Miniserver](microsoft/windows-based-images/boxlang-miniserver.md)
 
 ## google
 
