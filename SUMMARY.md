@@ -49,8 +49,8 @@
   * [BoxLang Miniserver](microsoft/ubuntu-based-images/boxlang-miniserver/boxlang-miniserver.md)
     * [Changelog](microsoft/ubuntu-based-images/boxlang-miniserver/changelog.md)
 * [Windows Based Images](microsoft/windows-based-images/README.md)
-  * [BoxLang with CommandBox](microsoft/windows-based-images/boxlang-with-commandbox.md)
-  * [BoxLang Miniserver](microsoft/windows-based-images/boxlang-miniserver.md)
+  * [BoxLang with CommandBox](microsoft/windows-based-images/boxlang-with-commandbox/boxlang-with-commandbox.md)
+  * [BoxLang Miniserver](microsoft/windows-based-images/boxlang-miniserver/boxlang-miniserver.md)
 
 ## google
 
