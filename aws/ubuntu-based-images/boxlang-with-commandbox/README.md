@@ -22,9 +22,9 @@ In "Launch" section you can choose method to launch, for this case, We're going 
 
 ![Instance launch method](../../../.gitbook/assets/aws/boxlang-with-commandbox/launching-options.png)
 
-This will take you to the "Choose an Instance Type." The default instance and AWS free tier selected is `t2.medium`. Unless you need more resources keep it at this.
-If You desire or You do not have Key pair, You can generate new ones in "Key pair (login)" section.
-On the "Network settings" section under "Firewall (Security groups)". We need to make a couple of changes. First is to go to the source column and select **My IP** so that SSH and RDP will only be enabled for your IP address (**VERY IMPORTANT**). Next allow **HTTP** and **HTTPS**. You can edit VPC, Subnet and Public IP configuration.
+This will take you to the "Choose an Instance Type." The default instance and AWS free tier selected is `t2.medium`. Unless you need more resources keep it at this.\
+If You desire or You do not have Key pair, You can generate new ones in "Key pair (login)" section.\
+On the "Network settings" section under "Firewall (Security groups)". We need to make a couple of changes. First is to go to the source column and select **My IP** so that SSH and RDP will only be enabled for your IP address (**VERY IMPORTANT**). Next allow **HTTP** and **HTTPS**. You can edit VPC, Subnet and Public IP configuration.\
 On "Configure Storage" section. If you want to persist your files, then add a volume. If you do not need to persist the files, keep the defaults.
 
 ![Instance launch set up](../../../.gitbook/assets/aws/boxlang-with-commandbox/ec2-launch-step.png)
@@ -70,5 +70,3 @@ CommandBox:wwwroot>
 ![New handler in running](../../../.gitbook/assets/aws/boxlang-with-commandbox/new-handler.png)
 
 **ENJOY YOUR CLOUD SERVER!**
-
-
