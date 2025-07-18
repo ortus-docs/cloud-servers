@@ -52,19 +52,19 @@
 
 * [Overview](microsoft/overview.md)
 * [Ubuntu Based Images](microsoft/ubuntu-based-images/README.md)
-  * [BoxLang Miniserver](microsoft/ubuntu-based-images/boxlang-miniserver/boxlang-miniserver.md)
+  * [BoxLang MiniServer](microsoft/ubuntu-based-images/boxlang-miniserver/README.md)
     * [Changelog](microsoft/ubuntu-based-images/boxlang-miniserver/changelog.md)
-  * [BoxLang with CommandBox](microsoft/ubuntu-based-images/boxlang-with-commandbox/commandbox-+-boxlang.md)
+  * [BoxLang with CommandBox](microsoft/ubuntu-based-images/boxlang-with-commandbox/README.md)
     * [Changelog](microsoft/ubuntu-based-images/boxlang-with-commandbox/changelog.md)
 * [Red Hat Based Images](microsoft/redhat-based-images/README.md)
   * [BoxLang MiniServer](microsoft/redhat-based-images/boxlang-miniserver/README.md)
     * [Changelog](microsoft/redhat-based-images/boxlang-miniserver/changelog.md)
   * [BoxLang with CommandBox](microsoft/redhat-based-images/boxlang-with-commandbox/README.md)
     * [Changelog](microsoft/redhat-based-images/boxlang-with-commandbox/changelog.md)
-* [Windows Based Images](microsoft/windows-based-images/boxlang-with-commandbox/boxlang-with-commandbox.md)
-  * [BoxLang Miniserver](microsoft/windows-based-images/boxlang-miniserver/boxlang-miniserver.md)
+* [Windows Based Images](microsoft/windows-based-images/README.md)
+  * [BoxLang MiniServer](microsoft/windows-based-images/boxlang-miniserver/README.md)
     * [Changelog](microsoft/windows-based-images/boxlang-miniserver/changelog.md)
-  * [BoxLang with CommandBox](microsoft/windows-based-images/boxlang-with-commandbox/boxlang-with-commandbox.md)
+  * [BoxLang with CommandBox](microsoft/windows-based-images/boxlang-with-commandbox/README.md)
     * [Changelog](microsoft/windows-based-images/boxlang-with-commandbox/changelog.md)
 
 ## google
@@ -75,7 +75,7 @@
     * [Changelog](google/ubuntu-based-images/boxlang-miniserver/changelog.md)
   * [BoxLang with CommandBox](google/ubuntu-based-images/boxlang-with-commandbox/README.md)
     * [Changelog](google/ubuntu-based-images/boxlang-with-commandbox/changelog.md)
-* [RedHat Based Images](google/redhat-based-images/README.md)
+* [Red Hat Based Images](google/redhat-based-images/README.md)
   * [BoxLang MiniServer](google/redhat-based-images/boxlang-miniserver/README.md)
     * [Changelog](google/redhat-based-images/boxlang-miniserver/changelog.md)
   * [BoxLang with CommandBox](google/redhat-based-images/boxlang-with-commandbox/README.md)
@@ -88,4 +88,4 @@
 
 ## Digital Ocean
 
-* [Coming Soon..](digital-ocean/coming-soon...md)
+* [Coming Soon..](digital-ocean/coming-soon.md)
