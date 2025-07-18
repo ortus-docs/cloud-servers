@@ -1,6 +1,6 @@
 # Ubuntu Based Images
 
-Create an EC2 instances from an Ortus BoxLang engine \(Ubuntu Server 24.04 LTS\) AMI \(Amazon Machine Image\).  We have created several based Ubuntu based images.
+Create an EC2 instances from an Ortus BoxLang engine \(Red Hat Enterprise Linux\) AMI \(Amazon Machine Image\).  We have created several based Red Hat based images.
 
 | Images                        | Status                                          |
 | ----------------------------- | ----------------------------------------------- |
@@ -19,7 +19,7 @@ On every Ubuntu based Cloud Server you will find software or tools to achieve be
 |ColdBox Application|Latest|:white_check_mark:|:white_check_mark:|
 |Nginx as HTTP Reverse Proxy|Latest stable version|:white_check_mark:|:x:|
 
-Due these Cloud Servers are Ubuntu 24.04 LTS based, you can follow this [link](https://aws.amazon.com/marketplace/pp/prodview-s4zvkzmlirbga?sr=0-5&ref_=beagle&applicationId=AWSMPContessa) to know more about base software running.
+Due these Cloud Servers are Red Hat Enterprise Linux \(RHEL\) for AWS based, you can follow this [link](https://aws.amazon.com/marketplace/pp/prodview-k5skpyd62jg22?sr=0-3&ref_=beagle&applicationId=AWSMPContessa) to know more about base software running.
 
 ## Environment variables
 
