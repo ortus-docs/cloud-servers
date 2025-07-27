@@ -7,7 +7,7 @@ This Virtual Machine create a runnging ColdBox Site using BoxLang with bx-compat
 - Project Editor or Compute Admin roles in Google Cloud project
 - A Service Account with `Cloud Infrastructure Manager Agent` `Compute Admin` and `Service Account User` roles
 
-In Google Cloud Marketplace you find this Virtual Machine offer as [**BoxLang with CommandBox for RedHat**](https://console.cloud.google.com/marketplace/product/ortussolutions-public/boxlang-miniserver-windows?hl=en&inv=1&invt=Ab30zA) or look for **Ortus Solutions, Corp** to look for out full catalog.
+In Google Cloud Marketplace you find this Virtual Machine offer as [**BoxLang with CommandBox for Windows**](https://console.cloud.google.com/marketplace/product/ortussolutions-public/boxlang-miniserver-windows?hl=en&inv=1&invt=Ab30zA) or look for **Ortus Solutions, Corp** to look for out full catalog.
 
 Accept Terms and agreements to subscribe to Virtual Machine offer
 
