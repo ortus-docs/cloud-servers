@@ -4,8 +4,8 @@ Create a Google Cloud Virtual Machine from an Ortus BoxLang MiniServer \(Ubuntu 
 
 |  | Images | Status |
 | :--- | :--- | :--- |
-|  | BoxLang with CommandBox | :white_check_mark: |
 |  | BoxLang Miniserver | :white_check_mark: |
+|  | BoxLang with CommandBox | :white_check_mark: |
 
 ## Software and tools installed matrix
 

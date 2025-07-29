@@ -17,7 +17,6 @@ On every Ubuntu based Cloud Server you will find software or tools to achieve be
 |BoxLang CFEngine (into CommandBox)|Latest version|:x:|:white_check_mark:|
 |BoxLang Miniserver (As OS binary)|Latest version|:white_check_mark:|:x:|
 |ColdBox Application|Latest|:white_check_mark:|:white_check_mark:|
-|Nginx as HTTP Reverse Proxy|Latest stable version|:white_check_mark:|:x:|
 
 Due these Cloud Servers are Red Hat Enterprise Linux \(RHEL\) for AWS based, you can follow this [link](https://aws.amazon.com/marketplace/pp/prodview-k5skpyd62jg22?sr=0-3&ref_=beagle&applicationId=AWSMPContessa) to know more about base software running.
 
