@@ -16,7 +16,7 @@ On every Ubuntu based Cloud Server you will find software or tools to achieve be
 |CommandBox   |latest| :white_check_mark:           | :white_check_mark:        |
 |BoxLang runtime|latest|:white_check_mark:(As OS binary)|:white_check_mark:(Into CommandBox)|
 |BoxLang MiniServer (As OS binary)|latest|:white_check_mark:|:x:|
-|ColdBox Application|Latest|:white_check_mark:|:white_check_mark:|
+|ColdBox Application|latest|:white_check_mark:|:white_check_mark:|
 
 Due these Cloud Servers are Red Hat Enterprise Linux \(RHEL\) for AWS based, you can follow this [link](https://aws.amazon.com/marketplace/pp/prodview-k5skpyd62jg22?sr=0-3&ref_=beagle&applicationId=AWSMPContessa) to know more about base software running.
 
