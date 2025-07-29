@@ -11,11 +11,11 @@ Create an EC2 instances from an Ortus BoxLang engine \(Ubuntu Server 24.04 LTS\)
 
 On every Ubuntu based Cloud Server you will find software or tools to achieve best experience with our solutions. This software include:
 
-|**Tool name**|**Version installed**|**BoxLang Miniserver**|**BoxLang with CommandBox**|
+|**Tool name**|**Version installed**|**BoxLang MiniServer**|**BoxLang with CommandBox**|
 |-------------|---------------------|------------------------------|---------------------------|
-|CommandBox   |Latest stable version| :white_check_mark:           | :white_check_mark:        |
-|BoxLang CFEngine (into CommandBox)|Latest version|:x:|:white_check_mark:|
-|BoxLang Miniserver (As OS binary)|Latest version|:white_check_mark:|:x:|
+|CommandBox   |latest| :white_check_mark:           | :white_check_mark:        |
+|BoxLang runtime|latest|:white_check_mark:(As OS binary)|:white_check_mark:(Into CommandBox)|
+|BoxLang MiniServer (As OS binary)|latest|:white_check_mark:|:x:|
 |ColdBox Application|Latest|:white_check_mark:|:white_check_mark:|
 
 Due these Cloud Servers are Ubuntu 24.04 LTS based, you can follow this [link](https://aws.amazon.com/marketplace/pp/prodview-s4zvkzmlirbga?sr=0-5&ref_=beagle&applicationId=AWSMPContessa) to know more about base software running.
