@@ -6,8 +6,8 @@ This documentation is born out of a need to keep introducing our customers to ne
 
 * Amazon Web Services (AWS)
 * Azure Cloud (`Available now!`)
+* Google Cloud (`Available now!`)
 * Digital Ocean (`Coming soon`)
-* Google Cloud (`Coming soon`)
 
 ## Cloud Servers
 

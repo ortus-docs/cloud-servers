@@ -8,9 +8,9 @@ icon: cloud-bolt
 Welcome to the repository of documentation for the [Ortus Solutions' cloud servers](https://www.ortussolutions.com/products/cloud-servers) that you can use to deploy BoxLang / CFML applications to the cloud on the following providers:
 
 * Amazon Web Services (AWS)
-* Digital Ocean (`Coming soon`)
-* Google Cloud (`Coming soon`)
 * Azure Cloud (`Available now!`)
+* Google Cloud (`Available now!`)
+* Digital Ocean (`Coming soon`)
 
 
 
