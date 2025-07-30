@@ -4,16 +4,28 @@ This documentation is born out of a need to keep introducing our customers to ne
 
 ## Supported Providers
 
-* Amazon Web Services (AWS)
+* Amazon Web Services (`Available now!`)
 * Azure Cloud (`Available now!`)
 * Google Cloud (`Available now!`)
 * Digital Ocean (`Coming soon`)
 
-## Cloud Servers
+## BoxLang Cloud Servers
 
 Here is a listing of the cloud servers that are available now or in progress of being built.
+|Server|Amazon Web Services|Microsoft Azure|Google Cloud Platform|
+|:-----|:--------|:-----|:-------|
+|BoxLang MiniServer for Windows|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|BoxLang MiniServer for Ubuntu|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|BoxLang MiniServer for Red Hat|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|BoxLang with CommandBox for Windows|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|BoxLang with CommandBox for Ubuntu|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|BoxLang with CommandBox for Red Hat|:x: Public visibility pending|:white_check_mark:|:white_check_mark:|
 
-<table><thead><tr><th width="275">Server</th><th width="140">Providers</th><th>Status</th></tr></thead><tbody><tr><td>Lucee+Nginx+Ubuntu</td><td>AWS</td><td><strong>√</strong></td></tr><tr><td>Lucee+IIS+Windows</td><td>AWS</td><td>In Progress</td></tr><tr><td>ContentBox CMS+Nginx+Ubuntu+MySQL</td><td>AWS</td><td>In Progress</td></tr><tr><td>ContentBox CMS+Nginx+Ubuntu</td><td>AWS</td><td>In Progress</td></tr></tbody></table>
+## Lucee Cloud Servers
+|Server|Provider|Status|
+|:-----|:-------|:-----|
+|Lucee+Nginx+Ubuntu|AWS|:white_check_mark:|
+|Lucee+IIS+Windows|AWS|:white_check_mark:|
 
 {% hint style="info" %}
 All of our cloud servers come pre-installed with the latest CommandBox CLI
