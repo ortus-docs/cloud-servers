@@ -9,7 +9,7 @@ Create an EC2 instance from an Ortus BoxLang engine \(Windows Server 2019\) AMI 
 
 ## Software and tools installed matrix
 
-On every Ubuntu based Cloud Server you will find software or tools to achieve best experience with our solutions. This software include:
+On every Windows based Cloud Server you will find software or tools to achieve best experience with our solutions. This software include:
 
 |**Tool name**|**Version installed**|**BoxLang MiniServer**|**BoxLang + CommandBox**|
 |-------------|---------------------|------------------------------|---------------------------|

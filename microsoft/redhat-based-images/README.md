@@ -1,6 +1,6 @@
-# Deploying BoxLang RedHat Cloud Servers
+# Deploying BoxLang Red Hat Cloud Servers
 
-Create a Azure Virtual Machine from an Ortus BoxLang MiniServer \(RedHat 8\) Virtual Machine \(Azure Virtual Machine\).  We have created several RedHat based images.
+Create a Azure Virtual Machine from an Ortus BoxLang MiniServer \(Red Hat 8\) Virtual Machine \(Azure Virtual Machine\).  We have created several Red Hat based images.
 
 |  | Images | Status |
 | :--- | :--- | :--- |
@@ -9,7 +9,7 @@ Create a Azure Virtual Machine from an Ortus BoxLang MiniServer \(RedHat 8\) Vir
 
 ## Software and tools installed matrix
 
-On every Ubuntu based Cloud Server you will find software or tools to achieve best experience with our solutions. This software include:
+On every Re Hat based Cloud Server you will find software or tools to achieve best experience with our solutions. This software include:
 
 |**Tool name**|**Version installed**|**BoxLang MiniServer**|**BoxLang with CommandBox**|
 |-------------|---------------------|------------------------------|---------------------------|
@@ -18,7 +18,7 @@ On every Ubuntu based Cloud Server you will find software or tools to achieve be
 |BoxLang MiniServer (As OS binary)|latest|:white_check_mark:|:x:|
 |ColdBox Application|latest|:white_check_mark:|:white_check_mark:|
 
-Due these Cloud Servers are RedHat 8 based, you can follow this [link](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/redhat.rh-rhel?tab=Overview) to know more about base software running.
+Due these Cloud Servers are Red Hat 8 based, you can follow this [link](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/redhat.rh-rhel?tab=Overview) to know more about base software running.
 
 ## Environment variables
 

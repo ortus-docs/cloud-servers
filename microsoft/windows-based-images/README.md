@@ -1,6 +1,6 @@
 # Windows 2019 Based Images
 
-Create an Azure Virtual Machine from an Ortus BoxLang with CommandBox \(Ubuntu Server 24.04 LTS\) Virtual Machine \(Azure VM\).  We have created several based Ubuntu based images.
+Create an Azure Virtual Machine from an Ortus BoxLang with CommandBox \(Windows Server 2019\) Virtual Machine \(Azure VM\).  We have created several based Windows based images.
 
 | Images | Status |
 | :--- | :--- |
@@ -9,7 +9,7 @@ Create an Azure Virtual Machine from an Ortus BoxLang with CommandBox \(Ubuntu S
 
 ## Software and tools installed matrix
 
-On every Ubuntu based Cloud Server you will find software or tools to achieve best experience with our solutions. This software include:
+On every Windows based Cloud Server you will find software or tools to achieve best experience with our solutions. This software include:
 
 |**Tool name**|**Version installed**|**BoxLang MiniServer**|**BoxLang + CommandBox**|
 |-------------|---------------------|------------------------------|---------------------------|

@@ -9,7 +9,7 @@ Create a Google Cloud Virtual Machine from an Ortus BoxLang MiniServer \(Windows
 
 ## Software and tools installed matrix
 
-On every Ubuntu based Cloud Server you will find software or tools to achieve best experience with our solutions. This software include:
+On every Windows based Cloud Server you will find software or tools to achieve best experience with our solutions. This software include:
 
 |**Tool name**|**Version installed**|**BoxLang MiniServer**|**BoxLang with CommandBox**|
 |-------------|---------------------|------------------------------|---------------------------|

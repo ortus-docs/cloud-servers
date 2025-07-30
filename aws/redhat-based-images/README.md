@@ -1,6 +1,6 @@
-# Ubuntu Based Images
+# Red Hat Based Images
 
-Create an EC2 instances from an Ortus BoxLang engine \(Red Hat Enterprise Linux\) AMI \(Amazon Machine Image\).  We have created several based Red Hat based images.
+Create an EC2 instances from an Ortus BoxLang engine \(Red Hat Enterprise Linux 8\) AMI \(Amazon Machine Image\).  We have created several based Red Hat based images.
 
 | Images                        | Status                                          |
 | ----------------------------- | ----------------------------------------------- |
@@ -9,7 +9,7 @@ Create an EC2 instances from an Ortus BoxLang engine \(Red Hat Enterprise Linux\
 
 ## Software and tools installed matrix
 
-On every Ubuntu based Cloud Server you will find software or tools to achieve best experience with our solutions. This software include:
+On every Red Hat based Cloud Server you will find software or tools to achieve best experience with our solutions. This software include:
 
 |**Tool name**|**Version installed**|**BoxLang MiniServer**|**BoxLang with CommandBox**|
 |-------------|---------------------|------------------------------|---------------------------|
