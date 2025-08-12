@@ -4,7 +4,7 @@
 ### Added
 * Bump BoxLang version to 1.4.0
 ### Removed
-* `/web/coldbox-site/wwwroot` directory were removed to `/web/boxlang-site/wwwroot`
+* `/web/coldbox-site/wwwroot` directory was moved to `/web/boxlang-site/wwwroot`
 
 ## Version 1.3.0
 ### Added
