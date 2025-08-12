@@ -34,7 +34,7 @@ For every Linux based BoxLang Cloud Server a Systemd daemon is used to get up an
 
 |Server|Red Hat like|Debian like|Daemon name|
 |:-----|:-----------|:----------|:----------|
-|BoxLang MiniServer|`boxlang-miniserver --host 0.0.0.0 --port 80 --webroot /web/coldbox-site/wwwroot --rewrites index.cfm`|`boxlang-miniserver --host 0.0.0.0 --port 80 --webroot /web/coldbox-site/wwwroot --rewrites index.cfm`|boxlang-miniserver|
+|BoxLang MiniServer|`boxlang-miniserver --host 0.0.0.0 --port 80 --webroot /web/boxlang-site/wwwroot --rewrites index.cfm`|`boxlang-miniserver --host 0.0.0.0 --port 80 --webroot /web/boxlang-site/wwwroot --rewrites index.cfm`|boxlang-miniserver|
 |BoxLang with CommandBox|`/bin/box server start serverConfigFile=server.json`|`/usr/local/bin/box server start serverConfigFile=server.json`|coldbox-site|
 
 {% hint style="info" %}
