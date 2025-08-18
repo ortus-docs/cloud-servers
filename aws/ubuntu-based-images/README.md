@@ -30,7 +30,7 @@ Due these Cloud Servers are Ubuntu 24.04 LTS based, you can follow this [link](h
 |BVM_HOME| `/usr/local/boxlang`|BoxLang Version Manager home|
 
 ## Default site
-For every Linux based BoxLang Cloud Server a Systemd daemon is used to get up and running a Web Server on well know HTTP port 80/TCP. Depending of the server flavor this can be started using BoxLang MiniServer or CommandBox. If you want to start a custom site or application, you can update this daemon service if need it, or just only place your custom site or application under `/web/coldbox-site/wwwroot` directory.
+For every Linux based BoxLang Cloud Server a Systemd daemon is used to get up and running a Web Server on well know HTTP port 80/TCP. Depending of the server flavor this can be started using BoxLang MiniServer or CommandBox. If you want to start a custom site or application, you can update this daemon service if need it, or just only place your custom site or application under `/web/boxlang-site/wwwroot` directory.
 
 |Server|Red Hat like|Debian like|Daemon name|
 |:-----|:-----------|:----------|:----------|
@@ -38,5 +38,5 @@ For every Linux based BoxLang Cloud Server a Systemd daemon is used to get up an
 |BoxLang with CommandBox|`/bin/box server start serverConfigFile=server.json`|`/usr/local/bin/box server start serverConfigFile=server.json`|coldbox-site|
 
 {% hint style="info" %}
-If you only place your custom site under `/web/coldbox-site/wwwroot` remember to delete their content before in order to remove the sample ColdBox Application
+If you only place your custom site under `/web/boxlang-site/wwwroot` remember to delete their content before in order to remove the sample ColdBox Application
 {% endhint %}
