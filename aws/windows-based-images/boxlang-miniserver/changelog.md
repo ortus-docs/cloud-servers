@@ -1,5 +1,9 @@
 # Changelog for BoxLang MiniServer on Windows Server 2019
 
+## Version 1.4.1
+### Added
+* Fix CVE-2025-50154
+
 ## Version 1.4.0
 ### Added
 * Bump BoxLang version to 1.4.0
